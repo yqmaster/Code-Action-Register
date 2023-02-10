@@ -1,0 +1,35 @@
+{
+  "name": "code-action-register",
+  "displayName": "Code Action Register",
+  "version": "0.0.1",
+  "description": "A tool to register code-action",
+  "publisher": "kingsoft",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yqmaster/Code-Action-Register.git"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Other",
+    "Formatters"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "rewatch": "rimraf -rf out node_modules && npm install && tsc -w",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/vscode": "^1.75.0",
+    "@vscode/test-electron": "^2.2.3",
+    "eslint": "^8.33.0",
+    "typescript": "^4.9.5"
+  }
+}
