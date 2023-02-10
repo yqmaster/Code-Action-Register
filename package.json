@@ -1,9 +1,9 @@
 {
   "name": "code-action-register",
   "displayName": "Code Action Register",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool to register code-action",
-  "publisher": "kingsoft",
+  "publisher": "Fireworks",
   "engines": {
     "vscode": "^1.75.0"
   },
